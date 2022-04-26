@@ -90,6 +90,10 @@ body::before {
   margin-bottom: 50px;
 }
 
+.arrow {
+  color: gold;
+}
+
 #dish2 {
   background-color: rgb(200, 154, 233);
 }
@@ -98,6 +102,16 @@ body::before {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+@media (max-width: 414px) {
+  .main-logo {
+    width: 300px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
