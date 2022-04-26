@@ -36,7 +36,8 @@ body::before {
 
 .parallax-header {
   background: #000;
-  background: /* linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), */ url("../img/hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url("../img/hero.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -99,10 +100,8 @@ body::before {
   border-radius: 10px;
 }
 
-/*
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
   }
 }
-*/
